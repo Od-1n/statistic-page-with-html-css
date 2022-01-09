@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+    .log-restaurant{
+        width: 300px;
+    }
+    .body-statistic{
+        margin: 0;
+        font-family: 'Karla', sans-serif;
+        overflow-y: hidden;
+       background-color: white;
+       overflow-y:scroll ;  
+        
+    }
+    .container i{
+        font-size: 40px ;
+        margin-top: 10px;
+    }
+    
+    
+    main{
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .aside-menu{
+        width: 30%;
+        border: 6px solid black;
+        background-color: black;
+        height: 100vh;
+    }
+    .a-menu-statistic{
+        padding: 10px;
+         line-height: 2.5;     /* meaning that the line height will be relative to the font size */
+    } 
+    .list-menu-statistic .a-menu-statistic {
+        text-decoration: none;
+        color: rgb(254,168,47);
+        font-size: 25px;
+    }
+    .img-list-menu{
+        width: 250px;
+    }
+    .nav-menu-statistic{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .a-menu-statistic:hover{
+       color: white;
+    }
+    .section-content-statistic h1{
+        font-size: 30px;
+    }
+    .h1-content-statistic{
+        position: absolute;
+        bottom: 80%;
+    }
+    
+    .section-content-statistic{
+        display: flex;
+        width: 70%;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+        background-color:rgb(255,237,178);
+    
+    }
+    
+    
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 20%;
+        height: 45vh;
+        display: flex;
+        background-color: #F2A02D ;
+        border-radius: 20px;
+      }
+      
+      .card:hover {
+        box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+      }
+      
+      .container {
+        padding: 2px 16px;
+      }  
+  
+
+
+
+@media only screen and (max-width: 450px){
+    .body-statistic{
+        font-family: 'Karla', sans-serif;
+    }
+  
+    .section-content-statistic{
+        display: flex;
+        width: 100vw;
+        height: 100%;
+        padding-bottom: 20px;
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    .card{
+        display: flex;
+        width: 50vw;
+       margin: 10px;
+       height: 35vh;
+    }
+
+    .nav-menu-statistic{
+        display: flex;
+        height: 6vw;
+    }
+    .log-restaurant{
+      width: 52vw;
+    }
+    .img-list-menu{
+        display: none;
+    }
+
+    .list-menu-statistic .a-menu-statistic{
+        font-size: 3vw;
+        
+    }
+
+    .list-menu-statistic{
+        list-style: none;
+    }
+
+    .aside-menu {
+        width: 97vw;
+        border: 6px solid black;
+        background-color: black;
+        height: 32vw;
+    }
+
+    .for_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ul_menu_statistic{
+        display: flex;
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    .main_statistic{
+        display: inline-block;
+    
+
+    }
+
+    .h1-content-statistic{
+        position: unset;
+        margin-top: 9vw;
+        font-size: 12vw;
+        
+    }
+    .a-menu-statistic:hover{
+        color: white;
+     }
+
+
+}
+    
